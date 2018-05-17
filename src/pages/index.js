@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <div>new text</div>
+export default () => <div>zero downtime?</div>
