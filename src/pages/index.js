@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
-import { selectProjects } from './selectors';
+import { selectProjects } from '../utils/selectors';
 
 const Page = styled.div`
   margin: 0 40px;
