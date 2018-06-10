@@ -1,8 +1,6 @@
-import React from 'react';
 import WorkItem from 'components/WorkItem';
 import ProjectItem from 'components/ProjectItem';
 import BlogPostItem from 'components/BlogPostItem';
-const defaultElement = () => <div>default</div>;
 
 export default [
   {
