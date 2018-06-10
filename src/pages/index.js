@@ -3,7 +3,9 @@ import styled from 'react-emotion';
 import AllSections from 'components/AllSections';
 
 const Page = styled.div`
-  margin: 0 40px;
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 960px;
 `;
 
 export default ({ data }) => {

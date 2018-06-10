@@ -1,14 +1,29 @@
 import React from 'react';
 import sections from 'config/sections';
 import Section from 'components/Section';
+import styled from 'react-emotion';
+
+const Wrapper = styled.div`
+  display: flex;
+
+  @media (max-width: 460px) {
+    display: block;
+  }
+`;
+
+const SectionWrapper = styled.div`
+  flex: 1;
+`;
 
 const AllSections = ({ data }) => {
   return (
-    <div>
+    <Wrapper>
       {sections.map(section => (
-        <Section key={section.title} section={section} data={data} />
+        <SectionWrapper key={section.title}>
+          <Section section={section} data={data} />
+        </SectionWrapper>
       ))}
-    </div>
+    </Wrapper>
   );
 };
 
