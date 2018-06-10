@@ -1,0 +1,17 @@
+[
+  {
+    name: Amazon
+    position: SDE Intern
+    current: true
+  }
+  {
+    name: HubSpot
+    position: Software Engineer Co-op
+    current: false
+  }
+  {
+    name: Intuit
+    position: Software Engineer Co-op
+    current: false
+  }
+]

@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-transformer-hjson',
+    'gatsby-plugin-resolve-src',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
