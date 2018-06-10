@@ -1,7 +1,8 @@
 import React from 'react';
+import GenericItem from 'components/GenericItem';
 
 const WorkItem = ({ data }) => {
-  return <div>{data.name}</div>;
+  return <GenericItem title={data.name} subtitle={data.position} />;
 };
 
 export default WorkItem;

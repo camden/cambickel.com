@@ -1,7 +1,8 @@
 import React from 'react';
+import GenericItem from 'components/GenericItem';
 
 const ProjectItem = ({ data }) => {
-  return <div>{data.name}</div>;
+  return <GenericItem title={data.name} />;
 };
 
 export default ProjectItem;

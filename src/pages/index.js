@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'react-emotion';
 import AllSections from 'components/AllSections';
+import Hero from 'components/Hero';
 
 const Page = styled.div`
   margin: 0 auto;
@@ -11,6 +12,7 @@ const Page = styled.div`
 export default ({ data }) => {
   return (
     <Page>
+      <Hero />
       <AllSections data={data} />
     </Page>
   );

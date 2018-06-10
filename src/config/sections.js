@@ -29,6 +29,8 @@ export const workFragment = graphql`
       edges {
         node {
           name
+          position
+          current
         }
       }
     }
@@ -41,6 +43,7 @@ export const projectsFragment = graphql`
       edges {
         node {
           name
+          link
         }
       }
     }
@@ -53,6 +56,7 @@ export const blogPostsFragment = graphql`
       edges {
         node {
           title
+          link
         }
       }
     }

@@ -6,7 +6,7 @@ const typography = new Typography({
   googleFonts: [
     {
       name: 'Source Serif Pro',
-      styles: ['600'],
+      styles: ['400, 700'],
     },
     {
       name: 'Source Sans Pro',
@@ -20,11 +20,6 @@ const typography = new Typography({
   headerWeight: 600,
   bodyWeight: 400,
   boldWeight: 700,
-  overrideStyles: ({ rhythm }) => ({
-    'h1,h2,h3,h4,h5,h6': {
-      marginTop: rhythm(2),
-    },
-  }),
 });
 
 export default typography;
