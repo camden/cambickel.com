@@ -3,4 +3,7 @@ export default {
     sectionTitle: '#888',
     defaultLinkUnderlineColor: 'violet',
   },
+  breakpoints: {
+    mobile: '640px',
+  },
 };

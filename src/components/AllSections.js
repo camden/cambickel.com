@@ -2,12 +2,14 @@ import React from 'react';
 import sections from 'config/sections';
 import Section from 'components/Section';
 import styled from 'react-emotion';
+import styles from 'config/styles';
 
 const Wrapper = styled.div`
   display: flex;
 
-  @media (max-width: 460px) {
+  @media (max-width: ${styles.breakpoints.mobile}) {
     display: block;
+    margin-bottom: 5rem;
   }
 `;
 

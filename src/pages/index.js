@@ -5,7 +5,7 @@ import Hero from 'components/Hero';
 
 const HeroWrapper = styled.div`
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 `;
 
 const Page = styled.div`

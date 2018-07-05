@@ -23,6 +23,10 @@ const Section = ({ section, data, styling }) => {
 const Title = styled.h3`
   color: ${styles.colors.sectionTitle};
   font-size: 1.2rem;
+
+  @media (max-width: ${styles.breakpoints.mobile}) {
+    margin-top: 5rem;
+  }
 `;
 
 export default Section;
