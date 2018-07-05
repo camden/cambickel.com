@@ -13,21 +13,21 @@ export default [
     },
   },
   {
-    title: 'Projects',
-    rootType: 'allProjectsHJson',
-    itemKey: 'name',
-    itemComponent: ProjectItem,
-    styling: {
-      linkColor: 'mediumaquamarine',
-    },
-  },
-  {
     title: 'Blog Posts',
     rootType: 'allBlogPostsHJson',
     itemKey: 'title',
     itemComponent: BlogPostItem,
     styling: {
       linkColor: 'peachpuff',
+    },
+  },
+  {
+    title: 'Projects',
+    rootType: 'allProjectsHJson',
+    itemKey: 'name',
+    itemComponent: ProjectItem,
+    styling: {
+      linkColor: 'mediumaquamarine',
     },
   },
 ];
@@ -53,6 +53,7 @@ export const projectsFragment = graphql`
       edges {
         node {
           name
+          subtitle
           link
         }
       }

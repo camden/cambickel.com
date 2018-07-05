@@ -1,22 +1,27 @@
 [
   {
     name: Rulebook.io
+    subtitle: Community-curated rulebooks for board&nbsp;games
     link: https://rulebook.io
   }
   {
     name: Tiny D20
+    subtitle: D&D dice roller Chrome extensions 
     link: https://chrome.google.com/webstore/detail/tiny-d20/kioakkagkemhjepoflhccjmabkhbiepp
   }
   {
+    name: Minidom
+    subtitle: Tiny deck-building game in Pico8 - made for Ludum Dare game jam
+    link: https://ldjam.com/events/ludum-dare/40/minidom
+  }
+  {
     name: Menubar D20
+    subtitle: macOS menubar D&D dice roller
     link: http://camdenbickel.com/menubar-d20/ 
   }
   {
     name: Battle for Dvorak
+    subtitle: Combat typing game - made for a game&nbsp;jam
     link: https://gamejolt.com/games/battle-for-dvorak/60216
-  }
-  {
-    name: Minidom
-    link: https://ldjam.com/events/ludum-dare/40/minidom
   }
 ]

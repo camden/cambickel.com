@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import AllSections from 'components/AllSections';
 import Hero from 'components/Hero';
+import styles from 'config/styles';
 
 const HeroWrapper = styled.div`
   margin-top: 2rem;
@@ -10,9 +11,13 @@ const HeroWrapper = styled.div`
 
 const Page = styled.div`
   margin: 0 auto;
-  padding: 0 40px;
   max-width: 960px;
   box-sizing: border-box;
+  padding: 0 10px;
+
+  @media (max-width: ${styles.breakpoints.mobile}) {
+    padding: 0 40px;
+  }
 `;
 
 export default ({ data }) => {
