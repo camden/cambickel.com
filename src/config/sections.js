@@ -9,7 +9,7 @@ export default [
     itemKey: 'name',
     itemComponent: WorkItem,
     styling: {
-      linkColor: 'hotpink',
+      linkColor: 'lightpink',
     },
   },
   {
@@ -40,6 +40,7 @@ export const workFragment = graphql`
           name
           position
           current
+          link
         }
       }
     }

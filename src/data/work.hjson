@@ -3,15 +3,24 @@
     name: Amazon
     position: SDE Intern
     current: true
+    link: https://www.amazon.jobs/en/teams/university-tech-internship
   }
   {
     name: HubSpot
     position: Software Engineer Co-op
     current: false
+    link: https://www.hubspot.com/
   }
   {
     name: Intuit
     position: Software Engineer Co-op
     current: false
+    link: http://www.intuit.com/
+  }
+  {
+    name: ClearSummit
+    position: Web Developer
+    current: false
+    link: http://clearsumm.it/
   }
 ]

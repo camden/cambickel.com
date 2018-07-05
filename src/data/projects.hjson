@@ -4,7 +4,19 @@
     link: https://rulebook.io
   }
   {
-    name: TinyD20
-    link: https://google.com
+    name: Tiny D20
+    link: https://chrome.google.com/webstore/detail/tiny-d20/kioakkagkemhjepoflhccjmabkhbiepp
+  }
+  {
+    name: Menubar D20
+    link: http://camdenbickel.com/menubar-d20/ 
+  }
+  {
+    name: Battle for Dvorak
+    link: https://gamejolt.com/games/battle-for-dvorak/60216
+  }
+  {
+    name: Minidom
+    link: https://ldjam.com/events/ludum-dare/40/minidom
   }
 ]

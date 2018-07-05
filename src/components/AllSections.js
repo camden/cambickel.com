@@ -15,6 +15,7 @@ const Wrapper = styled.div`
 
 const SectionWrapper = styled.div`
   flex: 1;
+  margin: 0 10px;
 `;
 
 const AllSections = ({ data }) => {
