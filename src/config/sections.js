@@ -8,18 +8,27 @@ export default [
     rootType: 'allWorkHJson',
     itemKey: 'name',
     itemComponent: WorkItem,
+    styling: {
+      linkColor: 'hotpink',
+    },
   },
   {
     title: 'Projects',
     rootType: 'allProjectsHJson',
     itemKey: 'name',
     itemComponent: ProjectItem,
+    styling: {
+      linkColor: 'mediumaquamarine',
+    },
   },
   {
     title: 'Blog Posts',
     rootType: 'allBlogPostsHJson',
     itemKey: 'title',
     itemComponent: BlogPostItem,
+    styling: {
+      linkColor: 'peachpuff',
+    },
   },
 ];
 

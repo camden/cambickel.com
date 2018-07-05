@@ -20,7 +20,7 @@ const AllSections = ({ data }) => {
     <Wrapper>
       {sections.map(section => (
         <SectionWrapper key={section.title}>
-          <Section section={section} data={data} />
+          <Section section={section} data={data} styling={section.styling} />
         </SectionWrapper>
       ))}
     </Wrapper>
