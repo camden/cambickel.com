@@ -5,6 +5,7 @@ import styles from 'config/styles';
 const MainText = styled.h2`
   font-weight: normal;
   font-size: 4rem;
+  margin-left: 20px;
 
   @media (max-width: ${styles.breakpoints.mobile}) {
     font-size: 3.2rem;

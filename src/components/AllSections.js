@@ -6,10 +6,10 @@ import styles from 'config/styles';
 
 const Wrapper = styled.div`
   display: flex;
+  margin-bottom: 5rem;
 
   @media (max-width: ${styles.breakpoints.mobile}) {
     display: block;
-    margin-bottom: 5rem;
   }
 `;
 
