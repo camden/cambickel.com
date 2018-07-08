@@ -14,7 +14,11 @@ const Section = ({ section, data, styling }) => {
     <div>
       <Title>{title}</Title>
       {items.map(item => (
-        <ItemComponent key={item[item.itemKey]} data={item} styling={styling} />
+        <ItemComponent
+          key={item[section.itemKey]}
+          data={item}
+          styling={styling}
+        />
       ))}
     </div>
   );
