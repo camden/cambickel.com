@@ -7,4 +7,11 @@ export default {
   breakpoints: {
     mobile: '740px',
   },
+  text: {
+    xLarge: '4rem',
+    large: '2.2rem',
+    medium: '1.6rem',
+    small: '1rem',
+    xSmall: '0.8rem',
+  },
 };

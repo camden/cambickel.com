@@ -12,7 +12,7 @@ const Title = styled.a`
   line-height: 1.4;
   display: inline;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: ${styles.text.medium};
   transition: all 100ms ease-out;
   cursor: pointer;
   box-shadow: inset 0 -3px 0 0 ${props => props.linkColor || styles.colors.defaultLinkUnderlineColor};
@@ -23,7 +23,7 @@ const Title = styled.a`
 `;
 
 const Subtitle = styled.div`
-  font-size: 1rem;
+  font-size: ${styles.text.small};
   margin-top: 4px;
   color: #777;
   widows: 2;
