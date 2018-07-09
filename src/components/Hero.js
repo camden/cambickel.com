@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <div>
       <MainText>
-        Hi, my name is <Name>Camden&nbsp;Bickel.</Name>
+        Hi, my name is <Name>Camden Bickel.</Name>
       </MainText>
     </div>
   );
