@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import styled from 'react-emotion';
 import AllSections from 'components/AllSections';
 import Hero from 'components/Hero';
@@ -18,6 +19,7 @@ const Page = styled.div`
 export default ({ data }) => {
   return (
     <Page>
+      <Helmet title={data.site.siteMetadata.title} />
       <HeroWrapper>
         <Hero />
       </HeroWrapper>
@@ -28,6 +30,11 @@ export default ({ data }) => {
 
 export const query = graphql`
   query MainQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     ...Work
     ...Projects
     ...BlogPosts

@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Camden Bickel',
+  },
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-transformer-hjson',
