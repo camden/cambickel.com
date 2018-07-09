@@ -3,7 +3,7 @@ import styled from 'react-emotion';
 import styles from 'config/styles';
 
 const Wrapper = styled.div`
-  margin: 1.4rem 0;
+  margin-bottom: 2.6rem;
 `;
 
 const Title = styled.a`

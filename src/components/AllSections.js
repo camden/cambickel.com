@@ -14,7 +14,9 @@ const Wrapper = styled.div`
 `;
 
 const SectionWrapper = styled.div`
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 200px;
+
   margin: 0 20px;
 `;
 
