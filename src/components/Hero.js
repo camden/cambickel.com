@@ -3,7 +3,9 @@ import styled from 'react-emotion';
 import styles from 'config/styles';
 
 const MainText = styled.h2`
-  font-weight: normal;
+  font-family: 'Merriweather';
+  font-weight: 300;
+  font-style: italic;
   font-size: ${styles.text.xLarge};
   margin-left: 20px;
 
@@ -13,7 +15,8 @@ const MainText = styled.h2`
 `;
 
 const Name = styled.span`
-  font-weight: bold;
+  font-weight: 900;
+  font-style: normal;
 
   &::before {
     content: '';

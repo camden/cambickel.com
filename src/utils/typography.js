@@ -5,15 +5,15 @@ const typography = new Typography({
   baseLineHeight: 1.5625,
   googleFonts: [
     {
-      name: 'Source Serif Pro',
-      styles: ['400, 700'],
+      name: 'Merriweather',
+      styles: ['300i, 900, 900i'],
     },
     {
       name: 'Source Sans Pro',
       styles: ['400', '400i', '700'],
     },
   ],
-  headerFontFamily: ['Source Serif Pro', 'sans-serif'],
+  headerFontFamily: ['Merriweather', 'serif'],
   bodyFontFamily: ['Source Sans Pro', 'sans-serif'],
   headerColor: 'hsla(0,0%,0%,1)',
   bodyColor: 'hsla(0,0%,0%,0.8)',
