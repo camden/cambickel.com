@@ -1,7 +1,8 @@
 export default {
   colors: {
     text: '#333',
-    sectionTitle: '#888',
+    subtitle: '#555',
+    sectionTitle: '#555',
     defaultLinkUnderlineColor: 'violet',
   },
   breakpoints: {
