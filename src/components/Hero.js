@@ -17,6 +17,7 @@ const MainText = styled.h2`
 const Name = styled.span`
   font-weight: 900;
   font-style: normal;
+  font-size: 1.1em;
 
   &::before {
     content: '';

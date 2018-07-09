@@ -8,7 +8,7 @@ export default {
     mobile: '740px',
   },
   text: {
-    xLarge: '4rem',
+    xLarge: '3.2rem',
     large: '2.2rem',
     medium: '1.6rem',
     small: '1rem',
