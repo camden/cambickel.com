@@ -17,6 +17,7 @@ const Title = styled.a`
   cursor: pointer;
   box-shadow: inset 0 -3px 0 0 ${props => props.linkColor || styles.colors.defaultLinkUnderlineColor};
 
+  &:focus,
   &:hover {
     box-shadow: inset 0 -14px 0 0 ${props => props.linkColor || styles.colors.defaultLinkUnderlineColor};
   }
