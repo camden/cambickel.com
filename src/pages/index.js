@@ -4,6 +4,8 @@ import styled from 'react-emotion';
 import AllSections from 'components/AllSections';
 import Hero from 'components/Hero';
 
+import favicon from 'assets/favicon.png';
+
 const HeroWrapper = styled.div`
   margin-top: 2rem;
   margin-bottom: 5rem;
@@ -19,7 +21,9 @@ const Page = styled.div`
 export default ({ data }) => {
   return (
     <Page>
-      <Helmet title={data.site.siteMetadata.title} />
+      <Helmet title={data.site.siteMetadata.title}>
+        <link rel="icon" type="image/png" href={favicon} sizes="64x64" />
+      </Helmet>
       <HeroWrapper>
         <Hero />
       </HeroWrapper>

@@ -4,6 +4,7 @@
     "noEmit": true,
     "baseUrl": "./",
     "paths": {
+      "assets/*": ["src/assets/*"],
       "components/*": ["src/components/*"],
       "config/*": ["src/config/*"]
     }
