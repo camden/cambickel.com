@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'react-emotion';
 import styles from 'config/styles';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const Wrapper = styled.div`
   margin-bottom: 2.6rem;
 `;
 
-const Title = styled.a`
+const Title = styled(OutboundLink)`
   text-decoration: none;
   color: ${styles.colors.text};
   line-height: 1.4;

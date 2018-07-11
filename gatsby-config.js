@@ -18,5 +18,12 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-71680879-1',
+        head: true,
+      },
+    },
   ],
 };
