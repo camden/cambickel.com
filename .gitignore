@@ -61,3 +61,4 @@ typings/
 public/
 dist/
 yarn-error.log
+.DS_Store
