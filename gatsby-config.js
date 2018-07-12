@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Camden Bickel',
+    meta: {
+      description: 'Camden Bickel, developer and designer living in Boston.',
+    },
   },
   plugins: [
     'gatsby-plugin-emotion',

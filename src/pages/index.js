@@ -23,6 +23,10 @@ export default ({ data }) => {
     <Page>
       <Helmet title={data.site.siteMetadata.title}>
         <link rel="icon" type="image/png" href={favicon} sizes="64x64" />
+        <meta
+          name="description"
+          content={data.site.siteMetadata.meta.description}
+        />
       </Helmet>
       <HeroWrapper>
         <Hero />
@@ -37,6 +41,9 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        meta {
+          description
+        }
       }
     }
     ...Work
