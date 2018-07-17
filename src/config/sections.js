@@ -11,6 +11,10 @@ export default [
     styling: {
       linkColor: 'lightpink',
     },
+    cta: {
+      text: 'My résumé ↗',
+      url: 'https://resume.cambickel.com',
+    },
   },
   {
     title: 'Projects',
