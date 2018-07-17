@@ -8,6 +8,7 @@ const MainText = styled.h2`
   font-style: italic;
   font-size: ${styles.text.xLarge};
   margin-left: 20px;
+  color: ${styles.colors.text};
 
   @media (max-width: ${styles.breakpoints.mobile}) {
     font-size: 3.2rem;
