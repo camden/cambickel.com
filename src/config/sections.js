@@ -12,7 +12,7 @@ export default [
       linkColor: 'lightpink',
     },
     cta: {
-      text: 'My résumé ↗',
+      text: 'My résumé ⤻',
       url: 'https://resume.cambickel.com',
     },
   },
