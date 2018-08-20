@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
 import styles from 'config/styles';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import FancyLink from 'components/shared/FancyLink';
 
 const Wrapper = styled.div`

@@ -7,7 +7,7 @@ import Hero from 'components/Hero';
 import favicon from 'assets/favicon.png';
 
 const HeroWrapper = styled.div`
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 5rem;
 `;
 
