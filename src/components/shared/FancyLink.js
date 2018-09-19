@@ -16,7 +16,7 @@ export default styled(OutboundLink)`
 
   &:focus,
   &:hover {
-    box-shadow: inset 0 ${props => props.hoverInsetAmount || '-14px'} 0 0
+    box-shadow: inset 0 ${props => props.hoverInsetAmount || '-10px'} 0 0
       ${props => props.linkColor || styles.colors.defaultLinkUnderlineColor};
   }
 `;
