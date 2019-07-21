@@ -1,5 +1,17 @@
 [
   {
+    name: Google
+    position: Software Engineer Intern
+    current: true
+    link: https://careers.google.com/students/engineering-and-technical-jobs/
+  }
+  {
+    name: Drift
+    position: Software Engineer Co-op
+    current: false
+    link: https://www.youtube.com/watch?v=hgdtbMlIAuo
+  }
+  {
     name: Amazon
     position: SDE Intern
     current: true
