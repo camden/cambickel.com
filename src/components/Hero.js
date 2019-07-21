@@ -8,6 +8,7 @@ const MainText = styled.h2`
   font-weight: 300;
   font-style: italic;
   font-size: ${styles.text.xLarge};
+  line-height: 1.3;
   margin-left: 20px;
   color: ${styles.colors.text};
 `;
