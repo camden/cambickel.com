@@ -5,6 +5,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build && mkdir -p dist && mv dist old_dist && mv public dist && rm -rf old_dist",
+    "now-build": "gatsby build",
     "serve": "gatsby serve"
   },
   "dependencies": {
