@@ -3,34 +3,35 @@
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
+    "start": "yarn develop",
     "develop": "gatsby develop",
     "build": "gatsby build && mkdir -p dist && mv dist old_dist && mv public dist && rm -rf old_dist",
     "now-build": "gatsby build",
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "emotion": "^9.1.3",
-    "emotion-server": "^9.1.3",
-    "gatsby": "^1.9.261",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-emotion": "^1.1.16",
-    "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-resolve-src": "^1.1.3",
-    "gatsby-plugin-typography": "^1.7.18",
-    "gatsby-source-filesystem": "^1.5.36",
-    "gatsby-transformer-hjson": "^1.0.4",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "gatsby": "^2.22.15",
+    "gatsby-link": "^2.4.3",
+    "gatsby-plugin-emotion": "^4.3.2",
+    "gatsby-plugin-google-analytics": "^2.3.2",
+    "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "gatsby-plugin-typography": "^2.5.2",
+    "gatsby-source-filesystem": "^2.3.8",
+    "gatsby-transformer-hjson": "^2.4.2",
     "prop-types": "^15.6.1",
-    "ramda": "^0.25.0",
-    "react-emotion": "^9.1.3",
-    "react-helmet": "^5.2.0",
-    "typography-theme-st-annes": "^0.15.10"
+    "ramda": "^0.27.0",
+    "react-emotion": "^10.0.0",
+    "react-helmet": "^6.0.0",
+    "typography-theme-st-annes": "^0.16.19"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.9.1",
-    "gatsby-cli": "^1.1.52",
-    "prettier": "^1.13.5"
+    "gatsby-cli": "^2.12.40",
+    "prettier": "^2.0.5"
   }
 }
